@@ -39,7 +39,7 @@
     </div>
 
     <!-- FOOTER -->
-    @include('footer')
+    @include('layouts/footer')
     <!-- FIN FOOTER -->
     
 

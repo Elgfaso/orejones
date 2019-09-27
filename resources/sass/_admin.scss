@@ -1,0 +1,21 @@
+
+.body_admin{
+  background: $color_base;  
+
+  .parte_izq_admin{
+    margin:0px 20px;
+    margin-bottom: 10px; 
+    border-right: 2px solid black;
+
+    select{
+      width: 100%;
+      //border-radius: 10px;
+      padding: 12px 20px;
+      margin: 8px 0;
+  }
+  }
+.table-hover > tbody > tr:hover {
+    background-color: #D2D2D2;
+  }
+
+}
