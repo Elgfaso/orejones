@@ -1,0 +1,754 @@
+.body_ac {
+  background: #FFFAFA;
+  margin: 0;
+  padding: 0;
+}
+
+.body_ac .contenido_ac {
+  background: #FFFAFA;
+}
+
+.body_ac .contenido_izq_ac {
+  margin: 50px 0;
+  background: #FFE4B5;
+  height: auto;
+  width: auto;
+  border-radius: 2px;
+  padding: 0px;
+}
+
+.body_ac .contenido_izq_ac a {
+  display: block;
+  padding: 15px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.body_ac .contenido_izq_ac a i {
+  background: transparent;
+}
+
+.body_ac .contenido_izq_ac a:hover {
+  background: #FF8C00;
+  color: white;
+}
+
+.body_ac .contenido_izq_ac li:hover {
+  background: black;
+}
+
+.body_ac .contenido_der_ac {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 50px;
+  padding: 10px 0;
+}
+
+.body_ac .titulo {
+  margin: 20px 20px;
+}
+
+.body_foro {
+  background: #FFFAFA;
+}
+
+.contenido_izq_foro {
+  height: auto;
+  width: auto;
+  margin: 50px 30px;
+  background: #FFE4B5;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.contenido_izq_foro ul {
+  background: #FFE4B5;
+  list-style-type: none;
+}
+
+.contenido_izq_foro ul img {
+  margin-left: 10px;
+}
+
+.contenido_izq_foro ul h5 {
+  background: #FFE4B5;
+}
+
+.contenido_izq_foro li {
+  background: #FFE4B5;
+  margin: 20px auto auto;
+}
+
+.contenido_izq_foro li a {
+  text-decoration: none;
+  color: #778899;
+}
+
+.contenido_izq_foro li a:hover {
+  color: black;
+}
+
+.contenido_izq_foro img {
+  background: #FFE4B5;
+  float: left;
+}
+
+.contenido_izq_foro .categorias_foro {
+  margin: 10px 60px;
+}
+
+.contenido_der_foro {
+  height: auto;
+  width: auto;
+  margin: 50px 30px;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.contenido_der_foro h1 {
+  background: transparent;
+  margin: 20px auto;
+}
+
+.contenido_der_foro p {
+  background: #FFE4B5;
+  margin: 0px;
+  padding: 50px 10px;
+}
+
+.contenido_der_foro .tabla_foro {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.contenido_der_foro .tabla_foro td, .contenido_der_foro .tabla_foro th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.contenido_der_foro .tabla_foro tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.contenido_der_foro .tabla_foro tr:hover {
+  background-color: #ddd;
+}
+
+.contenido_der_foro .tabla_foro th {
+  margin-bottom: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #90EE90;
+  color: black;
+}
+
+* {
+  background: #FFFAFA;
+  padding: 0;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navBar ul {
+  background: #90EE90;
+  list-style-type: none;
+  margin: 0px 0px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navBar ul li {
+  float: left;
+  border-right: 2px solid black;
+  background: #90EE90;
+}
+
+.navBar ul li .drop_navbar {
+  display: inline-block;
+}
+
+.navBar ul .derecha_nav {
+  float: right;
+}
+
+.navBar ul li:last-child {
+  border-right: none;
+  border-left: 2px solid black;
+}
+
+.navBar ul li a:not(.prueba) {
+  text-align: center;
+  text-decoration: none;
+  color: #FFFAFA;
+  font-size: 17px;
+  display: block;
+  padding: 10px 40px;
+  background: #90EE90;
+}
+
+.navBar ul .drop_content_navbar {
+  display: none;
+  position: absolute;
+  background-color: #3CB371;
+  min-width: 180px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.navBar ul .drop_content_navbar a:hover {
+  background-color: black;
+}
+
+.navBar ul .drop_navbar:hover .drop_content_navbar {
+  display: block;
+}
+
+.navBar ul .drop_content_navbar a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.navBar ul .drop_c.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBar ul a img {
+  text-align: center;
+  text-decoration: none;
+  color: #FFFAFA;
+  font-size: 100px;
+  display: block;
+  margin: 5px 20px 0px;
+  padding: 5px;
+  background-color: #90EE90;
+  border-radius: 10%;
+}
+
+.navBar ul a img:hover {
+  padding: 8px;
+}
+
+.navBar ul a img:hover:not(.logo_nav) {
+  padding: 0;
+  background-color: #90EE90;
+}
+
+.div_h1 div h1 {
+  text-align: center;
+}
+
+.imagen_inicio {
+  display: block;
+  margin: auto;
+  background-color: #FFFAFA;
+}
+
+.imagen_izq img {
+  display: block;
+  background-color: #FFFAFA;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.imagen_der img {
+  display: block;
+  float: right;
+  background-color: #FFFAFA;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.col-7 {
+  padding: 0;
+}
+
+.col-5 h5 {
+  margin-left: 10px;
+}
+
+.color_fondo {
+  background-color: #FFFAFA;
+}
+
+.separador_b {
+  height: 25px;
+  background-color: #FFFAFA;
+}
+
+.separador_v {
+  height: 25px;
+  background-color: #90EE90;
+}
+
+.separador_largo_b {
+  height: 50px;
+  margin: 10px 0px;
+  background-color: #FFFAFA;
+}
+
+.separador_largo_v {
+  height: 50px;
+  margin: 10px 0px;
+  background-color: #90EE90;
+}
+
+.prueba {
+  text-align: center;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+.footer {
+  background: #90EE90;
+  padding: 10px;
+  margin: 0;
+}
+
+.footer .footer_izq {
+  margin-bottom: 10px;
+  text-align: center;
+  background: #90EE90;
+}
+
+.footer .footer_izq a:hover {
+  font-size: 17px;
+}
+
+.footer .footer_izq img {
+  background: #90EE90;
+}
+
+.footer .footer_der {
+  background: #90EE90;
+}
+
+.footer .footer_der h3 {
+  margin-top: 25px;
+  background: #90EE90;
+  text-align: center;
+}
+
+.footer .footer_der a img {
+  margin-left: 45px;
+  background: #90EE90;
+}
+
+.footer .footer_der a img:hover {
+  padding: 5px;
+}
+
+.footer .footer_der p {
+  background: #90EE90;
+  text-align: center;
+}
+
+.ir-arriba {
+  display: none;
+  padding: 10px 20px;
+  background: orange;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.body_perfil {
+  background: #FFFAFA;
+  padding: 0;
+  margin: 0;
+}
+
+.contenido_izq_perfil {
+  margin: 50px 0px;
+  padding: 0px 20px;
+}
+
+.contenido_izq_perfil img {
+  border: solid 2px black;
+  padding: 2px;
+  display: block;
+  margin: 70px auto;
+}
+
+.contenido_centro_perfil {
+  margin: 50px 0px;
+  padding: 0px 20px;
+}
+
+.contenido_centro_perfil h2 {
+  text-align: center;
+}
+
+.contenido_centro_perfil .mis_datos {
+  padding: auto;
+  text-align: right;
+  margin: auto 0px;
+}
+
+.contenido_centro_perfil select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+.contenido_centro_perfil .editar:hover {
+  color: black;
+}
+
+.contenido_centro_perfil .editar {
+  height: 50px;
+  width: auto;
+  padding: 10px;
+  margin: 0;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: green;
+}
+
+.contenido_centro_perfil .editar img {
+  background: green;
+}
+
+.contenido_centro_perfil .eliminar:hover {
+  color: black;
+}
+
+.contenido_centro_perfil .eliminar {
+  height: 50px;
+  width: auto;
+  padding: 10px;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: auto;
+  border-radius: 5px;
+  background: red;
+}
+
+.contenido_centro_perfil .eliminar img {
+  background: red;
+}
+
+.quitar {
+  opacity: 0.2;
+  background: #3490dc;
+}
+
+.no_quitar {
+  opacity: 1;
+}
+
+.registro_form {
+  margin: 50px 0px;
+  background: #FF8C00;
+  width: 400px;
+  height: auto;
+  border-radius: 25px;
+}
+
+.registro_form img {
+  display: block;
+  margin: 10px auto;
+  background: #FF8C00;
+}
+
+.registro_form a {
+  text-decoration: none;
+  color: #FFFAFA;
+}
+
+.registro_form a:hover:not(img) {
+  color: #87CEFA;
+}
+
+.registro_form strong {
+  background: #FF8C00;
+  font-size: 20px;
+}
+
+.formulario {
+  background: #FF8C00;
+  margin: 20px 0px;
+}
+
+.formulario label {
+  background: #FF8C00;
+  margin: 0;
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+.formulario input:not([type="submit"]) select {
+  border-radius: 10px;
+  margin: 0;
+}
+
+.formulario input:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 4px blue;
+          box-shadow: 0px 0px 4px blue;
+}
+
+.formulario input[type="submit"] {
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.formulario input[type="submit"]:hover {
+  background: #87CEFA;
+}
+
+.formulario small {
+  background: #FF8C00;
+}
+
+.registro {
+  background: #FFFAFA;
+  border-radius: 50%;
+}
+
+.info_contenido {
+  margin: 0;
+}
+
+.info_contenido .info_izq {
+  background: #FFFAFA;
+  margin: 20px;
+}
+
+.info_contenido .info_izq h1 {
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+.info_contenido .info_der {
+  margin: 20px;
+  background: #4dc0b5;
+}
+
+.info_contenido .info_der img {
+  background: transparent;
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+}
+
+.contenido_der_foro_p {
+  margin: 50px 50px;
+  background: #90EE90;
+}
+
+.contenido_der_foro_p form {
+  background: #90EE90;
+}
+
+.contenido_der_foro_p .formulario_foro {
+  background: transparent;
+  padding: 30px 100px;
+}
+
+.contenido_der_foro_p .formulario_foro label {
+  background: transparent;
+}
+
+.contenido_der_foro_p .formulario_foro .input {
+  margin: 0 50px;
+}
+
+.contenido_der_foro_p .formulario_foro .dropbtn {
+  display: block;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  min-width: 200px;
+}
+
+.contenido_der_foro_p .formulario_foro .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.contenido_der_foro_p .formulario_foro .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.contenido_der_foro_p .formulario_foro .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.contenido_der_foro_p .formulario_foro .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.contenido_der_foro_p .formulario_foro .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.contenido_der_foro_p .formulario_foro .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.contenido_der_foro_p .formulario_foro textarea {
+  width: 100%;
+}
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,88 @@
+$color_cafe_claro:#FFE4B5;
+.body_foro{
+    background: $color_base;
+}
+
+.contenido_izq_foro{
+    height: auto;
+    width: auto;
+    margin: 50px 30px;
+    background: $color_cafe_claro;
+    border-radius: 5px;
+    padding: 0;
+    ul{
+        background: $color_cafe_claro;
+        list-style-type: none;
+        img{
+            margin-left:10px;
+        
+    }h5{
+            
+            background: $color_cafe_claro;
+        }
+    }
+    li{
+        background: $color_cafe_claro;
+        margin: 20px auto auto;
+        a{
+            text-decoration: none;
+            color: #778899;
+        }
+        a:hover{
+            color: black;
+            
+            //border-bottom: 2px solid black;
+        }
+    }
+    img{
+        background: $color_cafe_claro;
+        float: left;
+    }
+    .categorias_foro{
+        margin: 10px 60px;
+    }
+    .categorias_foro:hover{
+        
+    }
+}
+
+.contenido_der_foro{
+    height: auto;
+    width: auto;
+    margin: 50px 30px;
+    //background: $color_cafe_claro;
+    border-radius: 5px;
+    padding: 0;
+    h1{
+        background: transparent;
+        margin:20px auto;
+    }
+    p{
+        background: $color_cafe_claro;
+        margin:0px;
+        padding: 50px 10px;
+    }
+    .tabla_foro{
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      
+      
+       td, th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+    }
+      .tabla_foro tr:nth-child(even){background-color: #f2f2f2;}
+      
+      .tabla_foro tr:hover {background-color: #ddd;}
+      
+      .tabla_foro th {
+        margin-bottom: 5px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: $color_navbar;
+        color: black;
+      }
+}

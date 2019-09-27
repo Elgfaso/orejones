@@ -1,0 +1,377 @@
+//VARIABLES
+//COLOR BACKGROUND PRINCIPAL DE LA PAGINA
+$color_base: #FFFAFA;
+$color_navbar:#90EE90;
+$color_navbar_hover:#3CB371;
+
+$color_prueba:#90EE90;
+//CONFIGURACION GLOBAL
+*{
+    background: $color_base;
+    padding: 0;
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navBar{
+    
+   //ESTILO PARA LA LISTA
+    ul{
+        background:$color_navbar;
+        list-style-type: none;
+        margin: 0px 0px;
+        padding:0;
+        overflow: hidden;
+       
+        //ESTILO PARA LOS ITEMS A LA IZQUIERDA
+        li{
+            float: left;
+            border-right: 2px solid black;
+            background: $color_navbar;
+
+            .drop_navbar{
+                display: inline-block;
+            }
+           
+        }
+
+        //ESTILO PARA LOS ITEMS A LA DERECHA
+        .derecha_nav{
+            float: right;
+        }
+        
+        li:last-child{
+            border-right: none;
+            border-left: 2px solid black;
+        }
+        //li:first-child{
+          //  border-right: none;
+        //}
+        //LINKS DEL NAVBAR
+        li a:not(.prueba){
+            text-align: center;
+            text-decoration: none;
+            color:$color_base;
+            font-size: 17px;
+            display: block;
+            padding: 10px 40px;
+            background:$color_navbar;
+            $color_prueba:#90EE90;
+            
+        }
+        //ESTILO AL PASAR EL MOUSE POR LOS LINKS
+        li a:hover{
+            //margin:8px;
+            //background: $color_navbar_hover;
+            $color_prueba:#3CB371;
+            //font-size: 20px;
+        }
+        
+        .drop_content_navbar{
+            display: none;
+            position: absolute;
+            background-color:$color_navbar_hover;
+            min-width: 180px;
+            box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .drop_content_navbar a:hover {
+            background-color: black;
+        }
+
+        .drop_navbar:hover .drop_content_navbar {
+            display: block;
+        }
+
+        .drop_content_navbar a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .drop_c.dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+        a img{
+            text-align: center;
+            text-decoration: none;
+            color:$color_base;
+            font-size: 100px;
+            display: block;
+            margin: 5px 20px 0px;
+            padding: 5px;
+            background-color:$color_prueba;
+            border-radius: 10%;
+
+        }
+        a img:hover{
+            padding:8px;
+        }
+        //ESTILO PARA LOGO ESQUINA IZQUIERDA
+        a img:hover:not(.logo_nav){
+            //height: 110px;
+            //width: 125px;
+            padding: 0;
+            background-color:$color_prueba;
+        }
+      
+       
+    }
+    
+ 
+
+}
+.div_h1{
+div h1{
+            text-align: center;
+        }
+      }
+//IMAGENES
+.imagen_inicio{
+    display: block;
+    margin: auto;
+    background-color: $color_base;
+    
+}
+
+.imagen_izq img{
+    display: block;
+  //  margin: auto;
+    background-color: $color_base;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.imagen_der img{
+    display: block;
+    float: right;
+    background-color: $color_base;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    //margin-left: 10px;
+   //border-radius: 50%;
+}
+
+.col-7{
+    padding:0;
+}
+
+.col-5{
+    h5{
+        margin-left: 10px;
+    }
+}
+.color_fondo{
+    background-color: $color_base;
+}
+
+.separador_b{
+    height: 25px;
+    background-color: $color_base;
+}
+
+.separador_v{
+  height: 25px;
+  background-color: $color_navbar;
+}
+
+.separador_largo_b{
+  height: 50px;
+  margin: 10px 0px;
+  background-color: $color_base;
+}
+
+.separador_largo_v{
+    height: 50px;
+    margin: 10px 0px;
+    background-color: $color_navbar;
+}
+
+.prueba{
+    text-align: center;
+}
+
+
+
+//VENTANA MODAL LOGIN
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  /* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+  /* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 20%;
+    border-radius: 50%;
+  }
+  
+  .container {
+   // padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }  
+
+
+  
+
+.footer {
+  background:$color_navbar;
+  padding: 10px;
+  margin:0;
+  //text-align: center;
+
+
+  .footer_izq{
+    margin-bottom: 10px;
+    text-align: center;
+    background:$color_navbar;
+
+      a:hover{
+        font-size: 17px;
+      }
+  }
+  .footer_izq img {
+    background: $color_navbar;
+     // margin: 0;
+  }
+
+  .footer_der{
+    background: $color_navbar;
+   // border-left:3px solid black;
+    h3{
+      margin-top: 25px;
+      background: $color_navbar;
+      text-align: center;
+    }
+    a img{
+      margin-left: 45px;
+      background: $color_navbar;
+    }
+    a img:hover{
+      padding: 5px;
+    }
+    p{
+      background: $color_navbar;
+      text-align: center;
+    }
+  }
+ 
+} //BOTON PARA IR ARRIBA
+  .ir-arriba {
+	display:none;
+	padding: 10px 20px ;
+	background:orange;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}

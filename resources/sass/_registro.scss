@@ -1,0 +1,88 @@
+//@import 'index';
+
+$color_naranja: #FF8C00;
+
+.body_registro{
+   // background-image: url("../images/registro/Conejo1.jpg");
+}
+.quitar{
+    opacity: 0.2;
+ 
+    background:$blue;
+}
+.no_quitar{
+    opacity: 1;
+}
+.registro_form{
+    margin:50px 0px;
+    background: $color_naranja;
+    width: 400px;
+    height:auto ;
+    border-radius: 25px;
+    img{
+        display: block;
+        margin:10px auto;
+        background: $color_naranja;
+        
+    }
+    a{
+        //margin: -10px 50px;
+        text-decoration:none;
+        color:$color_base;
+    }
+    a:hover:not(img){
+        color:#87CEFA;
+    }
+
+    strong{
+        background: $color_naranja;
+        font-size: 20px;
+        
+    }
+}
+.formulario{
+    background: $color_naranja;
+    margin: 20px 0px;
+
+    label{
+        background: $color_naranja;
+        margin:0;
+        margin-top: 5px;
+        font-size: 17px;
+    }
+    input:not([type="submit"]) select{
+        border-radius: 10px;
+        margin: 0;
+    }
+    input:focus{
+        outline: none;
+        box-shadow: 0px 0px 4px blue;
+    }
+    input[type="submit"]{
+        //margin: 15px 15px 15px 15px;
+        border-radius: 10px;
+        
+        height: 50px;
+        width: 100%;
+    }
+
+    input[type="submit"]:hover{
+        background: #87CEFA;
+    }
+    small{
+        background: $color_naranja;
+    }
+}
+
+.registro{
+
+    //background-image: url("../images/registro/Conejo2.png");
+    //background-repeat: no-repeat;
+    background: $color_base;
+    border-radius: 50%;
+    //border-top-right-radius: 15%;
+    //background: $color_navbar;
+   // padding: 25px;
+   // margin: 50px 0px;
+    
+}

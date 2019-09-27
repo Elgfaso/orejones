@@ -1,0 +1,74 @@
+.body_perfil{
+    background: $color_base;
+    padding: 0;
+    margin: 0;
+}
+
+.contenido_izq_perfil{
+    //background: $color_cafe_claro;
+    //margin: 20px 0px;
+    margin: 50px 0px;
+    padding: 0px 20px;
+    img{
+       border: solid 2px black;
+       padding: 2px;
+       display: block;
+       margin: 70px auto;
+       //vertical-align: middle;
+    }
+
+}
+.contenido_centro_perfil{
+    margin: 50px 0px;
+    padding: 0px 20px;
+    h2{
+        text-align: center;
+    }
+    .mis_datos{
+            padding: auto; 
+            text-align: right;
+            margin: auto 0px;    
+    }
+    select{
+        width: 100%;
+        //border-radius: 10px;
+        padding: 12px 20px;
+        margin: 8px 0;
+    }
+    .editar:hover{
+        color:black;
+    }
+    .editar{
+        //display: inline;
+        height: 50px;
+        width: auto;
+        //display: inline-block;
+        padding: 10px;
+        margin: 0;
+        margin-right: 10px;
+        border-radius: 5px;
+        background: green;
+        img{
+            background: green;
+        }
+    }
+
+    .eliminar:hover{
+        color:black;
+    }
+    .eliminar{
+        // display: inline;
+        height: 50px;
+        width: auto;
+        //display: inline-block;
+        padding: 10px;
+        margin: 0;
+        margin-left: 10px;
+        margin-right: auto;
+        border-radius: 5px;
+        background: red;
+        img{
+            background: red;
+        }
+    }
+}
