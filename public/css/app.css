@@ -574,16 +574,16 @@ span.psw {
   background: red;
 }
 
-.quitar {
+.body_registro .quitar {
   opacity: 0.2;
   background: #3490dc;
 }
 
-.no_quitar {
+.body_registro .no_quitar {
   opacity: 1;
 }
 
-.registro_form {
+.body_registro .registro_form {
   margin: 50px 0px;
   background: #FF8C00;
   width: 400px;
@@ -591,64 +591,64 @@ span.psw {
   border-radius: 25px;
 }
 
-.registro_form img {
+.body_registro .registro_form img {
   display: block;
   margin: 10px auto;
   background: #FF8C00;
 }
 
-.registro_form a {
+.body_registro .registro_form a {
   text-decoration: none;
   color: #FFFAFA;
 }
 
-.registro_form a:hover:not(img) {
+.body_registro .registro_form a:hover:not(img) {
   color: #87CEFA;
 }
 
-.registro_form strong {
+.body_registro .registro_form strong {
   background: #FF8C00;
   font-size: 20px;
 }
 
-.formulario {
+.body_registro .formulario {
   background: #FF8C00;
   margin: 20px 0px;
 }
 
-.formulario label {
+.body_registro .formulario label {
   background: #FF8C00;
   margin: 0;
   margin-top: 5px;
   font-size: 17px;
 }
 
-.formulario input:not([type="submit"]) select {
+.body_registro .formulario input:not([type="submit"]) select {
   border-radius: 10px;
   margin: 0;
 }
 
-.formulario input:focus {
+.body_registro .formulario input:focus {
   outline: none;
   -webkit-box-shadow: 0px 0px 4px blue;
           box-shadow: 0px 0px 4px blue;
 }
 
-.formulario input[type="submit"] {
+.body_registro .formulario input[type="submit"] {
   border-radius: 10px;
   height: 50px;
   width: 100%;
 }
 
-.formulario input[type="submit"]:hover {
+.body_registro .formulario input[type="submit"]:hover {
   background: #87CEFA;
 }
 
-.formulario small {
+.body_registro .formulario small {
   background: #FF8C00;
 }
 
-.registro {
+.body_registro .registro {
   background: #FFFAFA;
   border-radius: 50%;
 }
@@ -750,5 +750,25 @@ span.psw {
 
 .contenido_der_foro_p .formulario_foro textarea {
   width: 100%;
+}
+
+.body_admin {
+  background: #FFFAFA;
+}
+
+.body_admin .parte_izq_admin {
+  margin: 0px 20px;
+  margin-bottom: 10px;
+  border-right: 2px solid black;
+}
+
+.body_admin .parte_izq_admin select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+.body_admin .table-hover > tbody > tr:hover {
+  background-color: #D2D2D2;
 }
 /*# sourceMappingURL=app.css.map */

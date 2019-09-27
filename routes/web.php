@@ -15,9 +15,14 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('atencion_cliente',function(){
+Route::get('ayuda',function(){
     return view('atencion_cliente');
 });
+
+Route::get('registro',function(){
+    return view('registro');
+});
+
 
 Route::get('foro',function(){
     return view('foro');
@@ -35,6 +40,11 @@ Route::get('publicar',function(){
 
 Route::get('info',function(){
     return view('info_conejo');
+});
+
+
+Route::get('admin',function(){
+    return view('admin');
 });
 
 
