@@ -20,7 +20,8 @@
 
     <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php">
+    <form class="modal-content animate" action="{{ action('UsuarioController@logear')}}" method="POST">
+        {{ csrf_field() }}
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="images/Conejo4.png" alt="Avatar" class="avatar" heigth="50px" width="200px">
@@ -59,19 +60,47 @@
     <div class="col-5 div_h1">
     <h1><i>Orejones</i><h1>
         <div class="separador_b"></div>
-    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, beatae neque quod voluptatum nisi animi 
-        nesciunt nulla? Harum sit a tempore ex cupiditate iure quos ullam natus. Quidem, facere cum.</h5>
+    <h4>Hola y bienvenido a ¡Orejones!</h4>
+    <br>
+    <h5>La página donde encontraras toda la información mas importante para tus conejo mascota.</h5>
+    <br>
+    <h5>Aqui podras informarte desde la <strong>alimentación</strong> que debe tener tu pequeño orejon hasta su <strong>historia</strong>
+    de como evoluciono este animal hasta ser uno doméstico.</h5>
+    <br>
+    <h5>Diviertete explorando las distintas secciones de la página que tenemos para ti.</h5>
+    <br>
+    <h5>
+        Asombrate con las curiosidades que tienen estos pequeños animales e informate de los cuidados necesarios que debes seguir
+        en caso de que quieras tener uno como mascota.
+    </h5>
     </div>
 </div>
 
 <div class="separador_largo_v"></div>
 
-<div class="row mr-auto">
-    <div class="col-5">
+<div class="row mr-auto ">
+    <div class="col-5 abajo">
         <h1><i>Orejones</i><h1>
         <div class="separador_b"></div>
-        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, beatae neque quod voluptatum nisi animi 
-        nesciunt nulla? Harum sit a tempore ex cupiditate iure quos ullam natus. Quidem, facere cum.</h5>
+        <h5>Y no solo encontraras muchisima información sobre conejos si no que tambien tenemos un foro para todos los amantes
+            de estas pequeñas mascotas.
+        </h5>
+        <br>
+        <h5>
+            En el foro podras ver los posts de los demas usuarios que han hecho, ademas de que si te registras, tu tambien podras postear
+            y hacer mas grande la comunidad de esta página.
+        </h5>
+        <br>
+        <h5>
+            El foro cuenta con muchas secciones tanto para dudas sobre algun cuidado, alimento, enfermedad que podria tenero necesitar tu conejo
+            , asi como posts divertidos y graciosos donde veras a los usuarios subir imágenes o videos de sus conejitos haciendo algo gracioso o simplemente
+            para mostrar su belleza.
+        </h5>
+        <br>
+        <h5>Asi que vamos, da clic para ir al foro o si lo prefieres puedes registrarte.</h5>
+        <button onclick ="location.href='foro'">Ir al foro</button>
+        <button  onclick ="location.href='registro'">Ir a registrarme</button>
+
     </div>
 
     <div class="col-7">

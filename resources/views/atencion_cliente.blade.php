@@ -24,9 +24,9 @@
         
         <div class="col-2 contenido_izq_ac">
         
-        <a href="#"><i class="fa fa-fw fa-home"></i> Politica de privacidad</a>
-        <a href="#"><i class="fa fa-fw fa-home"></i> Condiciones de uso</a>
-        <a href="#"><i class="fa fa-fw fa-home"></i> Contacto</a>
+        <a href="#"><i class="fa fa-fw fa-shield-alt"></i> Politica de privacidad</a>
+        <a href="#"><i class="fa fa-fw fa-users"></i> Condiciones de uso</a>
+        <a href="#"><i class="fa fa-fw fa-envelope"></i> Contacto</a>
         
         </div>
         <div class="col-1"></div>

@@ -29,7 +29,7 @@
 }
 
 .body_ac .contenido_izq_ac a:hover {
-  background: #FF8C00;
+  background: #ffb356;
   color: white;
 }
 
@@ -272,8 +272,8 @@
   padding: 0;
 }
 
-.col-5 h5 {
-  margin-left: 10px;
+.abajo {
+  padding-left: 30px;
 }
 
 .color_fondo {
@@ -306,56 +306,38 @@
   text-align: center;
 }
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
 button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+  -webkit-transition: border-radius .5s,text-shadow .5s,color .5s;
+  background: #ffb356;
+  padding: 20px 50px;
+  margin-right: 50px;
+  font-size: 20px;
   border: none;
-  cursor: pointer;
-  width: 100%;
+  border-radius: 3px;
+  text-decoration: none;
+  outline: none;
 }
 
 button:hover {
-  opacity: 0.8;
+  border-radius: 20px;
+  text-shadow: 0 0 50px white;
+  color: white;
+  background: radial-gradient(#ffb356, #FFE4B5);
+  text-decoration: none;
+  outline: none;
 }
 
-/* Extra styles for the cancel button */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
+button:focus {
+  outline: none;
+  text-decoration: none;
 }
 
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
+button:active {
+  text-shadow: 0 0 20px #ffb356;
+  text-decoration: none;
 }
 
-img.avatar {
-  width: 20%;
-  border-radius: 50%;
-}
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
+/* Full-width input fields */
 /* The Modal (background) */
 .modal {
   display: none;
@@ -377,6 +359,55 @@ span.psw {
   background-color: rgba(0, 0, 0, 0.4);
   /* Black w/ opacity */
   padding-top: 60px;
+  /* Set a style for all buttons */
+  /* Extra styles for the cancel button */
+  /* Center the image and position the close button */
+}
+
+.modal input[type=text], .modal input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.modal button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.modal button:hover {
+  opacity: 0.8;
+}
+
+.modal .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.modal .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.modal img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.modal span.psw {
+  float: right;
+  padding-top: 16px;
 }
 
 /* Modal Content/Box */
@@ -585,7 +616,7 @@ span.psw {
 
 .body_registro .registro_form {
   margin: 50px 0px;
-  background: #FF8C00;
+  background: #ffb356;
   width: 400px;
   height: auto;
   border-radius: 25px;
@@ -594,7 +625,7 @@ span.psw {
 .body_registro .registro_form img {
   display: block;
   margin: 10px auto;
-  background: #FF8C00;
+  background: #ffb356;
 }
 
 .body_registro .registro_form a {
@@ -603,49 +634,57 @@ span.psw {
 }
 
 .body_registro .registro_form a:hover:not(img) {
-  color: #87CEFA;
+  color: #90EE90;
 }
 
-.body_registro .registro_form strong {
-  background: #FF8C00;
-  font-size: 20px;
+.body_registro .registro_form h1 {
+  background: #ffb356;
+  font-size: 28px;
+  text-align: center;
 }
 
 .body_registro .formulario {
-  background: #FF8C00;
+  background: #ffb356;
   margin: 20px 0px;
 }
 
 .body_registro .formulario label {
-  background: #FF8C00;
+  background: #ffb356;
   margin: 0;
   margin-top: 5px;
   font-size: 17px;
 }
 
-.body_registro .formulario input:not([type="submit"]) select {
-  border-radius: 10px;
+.body_registro .formulario input:not([type="submit"]) {
+  border-radius: 3px;
+  width: 100%;
+  min-height: 50px;
   margin: 0;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
 }
 
 .body_registro .formulario input:focus {
   outline: none;
-  -webkit-box-shadow: 0px 0px 4px blue;
-          box-shadow: 0px 0px 4px blue;
+  border: 1px solid black;
 }
 
 .body_registro .formulario input[type="submit"] {
-  border-radius: 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
   height: 50px;
   width: 100%;
 }
 
 .body_registro .formulario input[type="submit"]:hover {
-  background: #87CEFA;
+  background: black;
+  color: white;
 }
 
 .body_registro .formulario small {
-  background: #FF8C00;
+  background: #ffb356;
 }
 
 .body_registro .registro {
@@ -667,6 +706,31 @@ span.psw {
   background: transparent;
 }
 
+.info_contenido .info_izq h4 {
+  color: #4dc0b5;
+}
+
+.info_contenido .info_izq p {
+  font-size: 18px;
+}
+
+.info_contenido .info_izq .lista_cuidado {
+  list-style-type: square;
+  margin-left: 25px;
+}
+
+.info_contenido .info_izq .lista_cuidado li {
+  font-size: 18px;
+}
+
+.info_contenido .info_izq .lista_cuidado2 {
+  margin-left: 25px;
+}
+
+.info_contenido .info_izq .lista_cuidado2 li {
+  font-size: 18px;
+}
+
 .info_contenido .info_der {
   margin: 20px;
   background: #4dc0b5;
@@ -674,10 +738,40 @@ span.psw {
 
 .info_contenido .info_der img {
   background: transparent;
-  padding: 50px;
-  height: 100%;
+  padding: 25px;
   width: 100%;
   margin-top: 0;
+}
+
+.info_contenido .lista_alimentacion {
+  background: #ffb356;
+  border-radius: 3px;
+}
+
+.info_contenido .lista_alimentacion ul {
+  background: transparent;
+  list-style-type: none;
+}
+
+.info_contenido .lista_alimentacion ul li {
+  padding-top: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+  background: transparent;
+}
+
+.info_contenido .lista_alimentacion ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.info_contenido .lista_alimentacion ul li:last-child {
+  padding-bottom: 10px;
+}
+
+.info_contenido .lista_alimentacion ul li:hover {
+  background: #FFE4B5;
+  padding-left: 15px;
 }
 
 .contenido_der_foro_p {

@@ -80,6 +80,29 @@
 
         </div>
     </div>
+    <br><br>
+    <div class="row mr-auto">
+      <div class="col-2"></div>
+      <div class="col-8">
+        <center><h2>Lista de usuarios registrados</h2></center>}
+        <table>
+          <thead>
+              <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Nickname</th>
+                  <th scope="col">Correo</th>
+                  <th scope="col">Fecha de registro</th>
+                </tr>
+          </thead>
+        @if($usuarios ?? '' != null)
+        @foreach ($usuarios ?? '' ?? '' as $usuario)
+            
+        @endforeach
+        @endif
+        </table>
+      </div>
+      <div class="col-2"></div>
+    </div>
     <!-- FIN CONTENIDO -->
     <!-- FOOTER -->
     @include('layouts/footer')

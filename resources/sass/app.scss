@@ -1,11 +1,8 @@
-//
-@import 'variables';
-@import 'atencion_cliente';
-@import 'foro';
-@import 'index';
-@import 'perfil';
-@import 'registro';
-@import 'info_conejo';
-@import 'publicacion_foro';
-@import 'admin';
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';

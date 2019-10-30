@@ -24,6 +24,11 @@
                 
             </div>
             <div class="col-7 contenido_centro_perfil">
+                @if ($user != null)
+                    <h1> Bienvenido(a) {{$user->nickname_u}}</h1>
+                @endif
+            
+               
                 <h2>Mis Datos</h2>
                 <hr>
                 <div class="row">

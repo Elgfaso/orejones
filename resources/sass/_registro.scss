@@ -1,6 +1,5 @@
 //@import 'index';
 
-$color_naranja: #FF8C00;
 
 .body_registro{
    // background-image: url("../images/registro/Conejo1.jpg");
@@ -31,13 +30,13 @@ $color_naranja: #FF8C00;
         color:$color_base;
     }
     a:hover:not(img){
-        color:#87CEFA;
+        color:$color_navbar;
     }
 
-    strong{
+    h1{
         background: $color_naranja;
-        font-size: 20px;
-        
+        font-size: 28px;
+        text-align: center;
     }
 }
 .formulario{
@@ -50,24 +49,31 @@ $color_naranja: #FF8C00;
         margin-top: 5px;
         font-size: 17px;
     }
-    input:not([type="submit"]) select{
-        border-radius: 10px;
+    input:not([type="submit"]){
+        border-radius: 3px;
+        width: 100%;
+        min-height: 50px;
         margin: 0;
+        padding: 10px 15px;
+        outline: none;
+        border:none;
     }
     input:focus{
         outline: none;
-        box-shadow: 0px 0px 4px blue;
+        border: 1px solid black;
     }
     input[type="submit"]{
         //margin: 15px 15px 15px 15px;
-        border-radius: 10px;
-        
+        border-radius: 3px;
+        border:none;
+        outline: none;
         height: 50px;
         width: 100%;
     }
 
     input[type="submit"]:hover{
-        background: #87CEFA;
+        background: black;
+        color:white;
     }
     small{
         background: $color_naranja;

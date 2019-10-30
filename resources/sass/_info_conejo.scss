@@ -9,6 +9,28 @@
             margin-bottom: 20px;   
             background: transparent;
         }
+        h4{
+            color:$teal;
+        }
+        p{
+            font-size:18px; 
+        }
+
+        .lista_cuidado{
+            li{
+                font-size: 18px;
+            }
+            list-style-type: square;
+            margin-left: 25px;
+        }
+        .lista_cuidado2{
+            li{
+                font-size: 18px;
+            }
+            //list-style-type: square;
+            margin-left: 25px;
+        }
+
     }
 
     .info_der{
@@ -18,11 +40,42 @@
         background: $teal;
         img{
             background: transparent;
-            padding: 50px;
-            height: 100%;
+            padding: 25px;
+            //height: 100%;
             width:  100%;
         margin-top: 0;
         //size:auto;
     }
+    }
+
+    .lista_alimentacion{
+        //border: 1px solid black;
+        background: $color_naranja;
+        border-radius: 3px;
+        ul{
+            //padding: 10px;
+           background: transparent;
+            //margin:20px 0;
+            //margin-left: 20px;
+            list-style-type: none;
+            li{
+                padding-top: 5px;
+                padding-left: 10px;
+                font-size: 20px;
+                background: transparent;
+                a{
+                    text-decoration: none;
+                    color:white;
+                }
+               
+            }
+            li:last-child{
+                padding-bottom: 10px;
+            }
+            li:hover{
+                background: $color_cafe_claro;
+                padding-left: 15px;
+            }
+        }
     }
 }
